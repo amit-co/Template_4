@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\utils\\custom-slick-dots.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\custom-slick-dots.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\Menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Pages\\Menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Timings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\Timings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\RestrauntLocation.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\RestrauntLocation.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\RestaurantDetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\RestaurantDetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\BookNow.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Pages\\BookNow.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Menus.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\Menus.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\About.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Pages\\About.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Quote.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\Quote.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Reservation.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\Reservation.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Reserve.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\Reserve.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\Gallery.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Pages\\Gallery.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\utils\\galleryImages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\galleryImages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookNow.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\BookNow.jsx",
+              "RelativeDocumentMoniker": "src\\Pages\\BookNow.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\BookNow.jsx",
+              "RelativeToolTip": "src\\Pages\\BookNow.jsx",
+              "ViewState": "AQIAABIBAAAAAAAAAADwvyMBAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T13:22:32.364Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\Menu.jsx",
+              "RelativeDocumentMoniker": "src\\Pages\\Menu.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\Menu.jsx",
+              "RelativeToolTip": "src\\Pages\\Menu.jsx",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvxwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T15:35:04.302Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\Home.jsx",
+              "RelativeDocumentMoniker": "src\\Pages\\Home.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\Home.jsx",
+              "RelativeToolTip": "src\\Pages\\Home.jsx",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAwCkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T15:26:58.204Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "About.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\About.jsx",
+              "RelativeDocumentMoniker": "src\\Pages\\About.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\About.jsx",
+              "RelativeToolTip": "src\\Pages\\About.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-28T12:24:08.432Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Timings.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Timings.jsx",
+              "RelativeDocumentMoniker": "src\\Components\\Timings.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Timings.jsx",
+              "RelativeToolTip": "src\\Components\\Timings.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T15:55:24.066Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RestrauntLocation.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\RestrauntLocation.jsx",
+              "RelativeDocumentMoniker": "src\\Components\\RestrauntLocation.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\RestrauntLocation.jsx",
+              "RelativeToolTip": "src\\Components\\RestrauntLocation.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-28T12:11:55.656Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "package.json",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\package.json*",
+              "RelativeToolTip": "package.json*",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-29T07:15:39.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "custom-slick-dots.css",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\utils\\custom-slick-dots.css",
+              "RelativeDocumentMoniker": "src\\utils\\custom-slick-dots.css",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\utils\\custom-slick-dots.css",
+              "RelativeToolTip": "src\\utils\\custom-slick-dots.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-28T18:46:23.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RestaurantDetails.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\RestaurantDetails.jsx",
+              "RelativeDocumentMoniker": "src\\Components\\RestaurantDetails.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\RestaurantDetails.jsx",
+              "RelativeToolTip": "src\\Components\\RestaurantDetails.jsx",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwDAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-28T08:21:59.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Reservation.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Reservation.jsx",
+              "RelativeDocumentMoniker": "src\\Components\\Reservation.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Reservation.jsx",
+              "RelativeToolTip": "src\\Components\\Reservation.jsx",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAwEsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T15:54:03.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Gallery.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\Gallery.jsx",
+              "RelativeDocumentMoniker": "src\\Pages\\Gallery.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Pages\\Gallery.jsx",
+              "RelativeToolTip": "src\\Pages\\Gallery.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T15:47:41.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "galleryImages.js",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\utils\\galleryImages.js",
+              "RelativeDocumentMoniker": "src\\utils\\galleryImages.js",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\utils\\galleryImages.js",
+              "RelativeToolTip": "src\\utils\\galleryImages.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-27T15:47:23.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Reserve.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Reserve.jsx",
+              "RelativeDocumentMoniker": "src\\Components\\Reserve.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Reserve.jsx",
+              "RelativeToolTip": "src\\Components\\Reserve.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T15:35:11.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Footer.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Footer.jsx",
+              "RelativeDocumentMoniker": "src\\Components\\Footer.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Footer.jsx",
+              "RelativeToolTip": "src\\Components\\Footer.jsx",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T15:30:52.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Navbar.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Navbar.jsx",
+              "RelativeDocumentMoniker": "src\\Components\\Navbar.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Navbar.jsx",
+              "RelativeToolTip": "src\\Components\\Navbar.jsx",
+              "ViewState": "AQIAAPAAAAAAAAAAAAAAADMBAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T15:28:57.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Quote.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Quote.jsx",
+              "RelativeDocumentMoniker": "src\\Components\\Quote.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Quote.jsx",
+              "RelativeToolTip": "src\\Components\\Quote.jsx",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAwB4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T15:02:40.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Menus.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Menus.jsx",
+              "RelativeDocumentMoniker": "src\\Components\\Menus.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\Components\\Menus.jsx",
+              "RelativeToolTip": "src\\Components\\Menus.jsx",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-27T06:00:15.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "index.css",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\index.css",
+              "RelativeDocumentMoniker": "src\\index.css",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\index.css",
+              "RelativeToolTip": "src\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-26T16:45:44.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\tailwind.config.js",
+              "RelativeDocumentMoniker": "tailwind.config.js",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\tailwind.config.js",
+              "RelativeToolTip": "tailwind.config.js",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-26T16:44:28.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.jsx",
+              "DocumentMoniker": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "G:\\ReserveOcean\\Source Code\\ReserveOcean_Restaurants_Website\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-26T16:42:24.627Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
