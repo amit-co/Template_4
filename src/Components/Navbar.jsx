@@ -7,7 +7,7 @@ import img2 from "/icons/instagram.png";
 import img3 from "/icons/twitter.png";
 import img4 from "/icons/Call.png";
 import logo from "/dark_logo.png";
-import img from "/New/bg.png"
+import img from "/New/BG.png"
 
 export function Navbar() {
     const navigate = useNavigate();

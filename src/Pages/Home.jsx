@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import img from "/New/bg.png";
+import img from "/New/BG.png";
 import img1 from "/New/home_bg.png";
 import img2 from "/New/Frame 85.png";
 import img3 from "/New/bookimg.png";
