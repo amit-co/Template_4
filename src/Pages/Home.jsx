@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import img from "/New/BG.png";
-import img1 from "/New/BG.png";
+import img1 from "/New/home_bg.png";
 import img2 from "/New/Frame 85.png";
 import img3 from "/New/bookimg.png";
 import img4 from "/Group 85.png";
@@ -9,9 +9,9 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Quote from "../Components/Quote";
 import RestrauntLocation from "../Components/RestrauntLocation";
-import img5 from "/icons/facebook.png";
-import img6 from "/icons/instagram.png";
-import img7 from "/icons/twitter.png";
+import img5 from "/New/facebook.png";
+import img6 from "/New/instagram.png";
+import img7 from "/New/twitter.png";
 import img8 from "/New/Gallery.png";
 import img9 from "/New/Drinks.png";
 import img10 from "/New/Food.png";
@@ -261,7 +261,7 @@ export default function Home() {
                                                                     "22:30",
                                                                     "23:00",
                                                                 ].map((time) => (
-                                                                    <option key={time} value={time}>
+                                                                    <option key={time} value={time} className="bg-black">
                                                                         {new Date(`1970-01-01T${time}Z`).toLocaleTimeString([], {
                                                                             hour: "2-digit",
                                                                             minute: "2-digit",
