@@ -41,9 +41,9 @@ export function Quote() {
                     autoPlay={true}
                 >
                     {quoteData.map((quote) => (
-                        <div key={quote.id} className="w-[75%] items-center mx-auto text-center text-white-600 tracking-widest">
+                        <div key={quote.id} className="w-full lg:w-[75%] items-center mx-auto text-center text-white-600 tracking-widest">
                             <q>{quote.Description}</q>
-                            <h1 className="text-center text-2xl mt-2 font-semibold">{quote.Heading}</h1>
+                            <h1 className="text-center text-xs lg:text-xl lg:text-2xl mt-2 font-semibold">{quote.Heading}</h1>
                             <div className="flex sm:ml-5  place-content-center">
                                 <img src={quote.logo} className="w-[200px]  object-contain" alt="" />
                                 </div>
