@@ -78,10 +78,10 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="flex flex-col ml-40 mt-6 text-white">
-                        <h1 className=" text-2xl tracking-widest font-bold ml-14">OPENING TIME</h1>
+                        <h1 className=" text-lg lg:text-2xl tracking-widest font-bold ml-14">OPENING TIME</h1>
                         
-                        <h1 className="tracking-widest text-xl">Monday - Friday 10 Am - 10Pm</h1>
-                        <h1 className="tracking-widest text-xl">Saturday - Sunday 12 Pm - 12Am</h1>
+                        <h1 className="tracking-widest text-sm lg:text-xl">Monday - Friday 10 Am - 10Pm</h1>
+                        <h1 className="tracking-widest text-sm lg:text-xl">Saturday - Sunday 12 Pm - 12Am</h1>
                         <div className="flex ml-20 mt-2">
                             <button className="tracking-widest border px-4 py-2">Find A Table</button>
                             </div>
@@ -94,7 +94,7 @@ export default function Home() {
             <div className="flex flex-col h-[50vh] bg-customBlack2 bg-opacity-75 mb-10 mx-8 ">
                 <div className="flex flex-row my-auto ">
                     <div className="container my-auto ml-24">
-                        <h1 className="text-white text-6xl tracking-widest">About Us</h1>
+                        <h1 className="text-white md:text-4xl sm:text-3xl text-2xl lg:text-6xl tracking-widest">About Us</h1>
                     </div>
                     <div className="container w-[300vh] mr-20">
                         <p className="text-white tracking-widest text-medium">Our Aim Is To Provide A Welcoming All-Day Experience Rooted In Care For Our Customers, Staff, Produce And Land.
