@@ -27,7 +27,7 @@ export function Quote() {
     };
 
     return (
-        <div className="text-2xl pt-8 font-lightbold"
+        <div className="text-2xl pt-8 font-lightbold "
              >
             <RiDoubleQuotesL className="mx-auto mt-5 mb-5 text-3xl" />
             <div>
@@ -45,7 +45,7 @@ export function Quote() {
                             <q>{quote.Description}</q>
                             <h1 className="text-center text-xs lg:text-xl lg:text-2xl mt-2 font-semibold">{quote.Heading}</h1>
                             <div className="flex sm:ml-5  place-content-center">
-                                <img src={quote.logo} className="w-[200px]  object-contain" alt="" />
+                                <img src={quote.logo} className="w-[200px] h-20 object-contain" alt="" />
                                 </div>
                             
                         </div>

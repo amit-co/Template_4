@@ -1,58 +1,40 @@
-import img1 from "/icons/facebook.png";
-import img2 from "/icons/instagram.png";
-import img3 from "/icons/twitter.png";
-import logo from "/dark_logo.png";
-import { useNavigate, Link } from "react-router-dom";
-import img from "/Textures/4523.png"
+import img5 from "/New/facebook.png";
+import img6 from "/New/instagram.png";
+import img7 from "/New/twitter.png";
+import img from "/New/BG.png";
+import RestrauntLocation from "../Components/RestrauntLocation";
 
 export function Footer() {
-    const navigate = useNavigate();
     return (
-        <div className="bg-repeat px-3 py-[8vh] space-x-3 justify-between sm:justify-around text-white flex"
-            style={{ backgroundImage: `url(${img})` }}
-        >
-            <div className="hidden md:block">
-                <img
-                    src={logo}
-                    className="w-[190px]"
-                    alt="Company Logo"
-                    onClick={() => navigate('/')}
-                />
+        <div className="bg-fixed bg-cover " style={{ backgroundImage: `url(${img})` }}>
+        <div className=" flex  flex-col lg:flex-row h-full lg:h-11/12 lg:pb-4 items-center backdrop-brightness-50 bg-white/10 ">
+            <div className="flex ml-0 lg:ml-20 ">
+                <RestrauntLocation />
             </div>
-
-            <div className="text-xl text-customBrown hidden sm:block">
-                <p className=" underline font-bold mb-5">ADDRESS</p>
-                <p>Terminal Four</p>
-                <p>Hounslow</p>
-                <p>TW6 3AF</p>
-                <p>United Kingdom</p>
-                <p>FREE ON-SITE PARKING</p>
-            </div>
-
-            <div>
-                
-                <div className="text-customBrown text-xl">
-                    <p className=" underline font-bold mb-5">CONTACT US</p>
-                    <Link to="tel:+442087597755">+44 (0) 208759 7755</Link>
-                    <p><Link to="gmail:franky.rodrigues@hilton.com">franky.rodrigues@hilton.com</Link></p>
+            <div className="conatiner mx-auto mt-24 lg:mt-6 space-y-6">
+                <h1 className="text-2xl md:text-4xl sm:text-3xl lg:text-5xl tracking-widest text-white ">Connect With Us</h1>
+                <div className="flex flex-col text-white md:text-lg sm:text-base text-sm lg:text-xl tracking-widest space-y-3 lg:space-y-4">
+                    <p>ADDRESS- Terminal Four, Hounslow, </p>
+                    <p>TW6 3AF, United Kingdom</p>
+                    <p>TEL - +44 (0) 208759 7755</p>
+                    <p>EMAIL - franky.rodrigues@hilton.com</p>
                 </div>
-                <p className="text-cutomOrange mb-5">OXBO-ReserveOcean.com</p>
-            </div>
-
-            <div className=" text-xl">
-                <h3 className=" text-customBrown underline font-bold mb-5 ml-3">SOCIALS</h3>
-              <div className="flex space-x-4">
-                <a href="https://www.facebook.com/yourprofile">
-                    <img src={img1 } />
-                </a>
-                <a href="https://www.instagram.com/yourprofile">
-                    <img src={img2} />
-                </a>
-                <a href="https://twitter.com/yourprofile">
-                    <img src={img3} />
-                </a>
-              </div>
+                <div className="container">
+                    <h1 className="text-white text-lg sm:text-xl lg:text-2xl font-bold tracking-widest ">Follow Us</h1>
+                    <div className="flex  space-x-4 mt-2 ">
+                        <a href="https://www.facebook.com/yourprofile">
+                            <img src={img5} />
+                        </a>
+                        <a href="https://www.instagram.com/yourprofile">
+                            <img src={img6} />
+                        </a>
+                        <a href="https://twitter.com/yourprofile">
+                            <img src={img7} />
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
+       </div>
     );
 }

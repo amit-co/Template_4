@@ -1,15 +1,12 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import { IoMenuOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
-import img1 from "/icons/facebook.png";
-import img2 from "/icons/instagram.png";
-import img3 from "/icons/twitter.png";
-import img4 from "/icons/Call.png";
-import logo from "/dark_logo.png";
-import img from "/New/BG.png"
+import img from "/New/BG.png";
+import { IoMenuOutline } from "react-icons/io5";
 
-export function Navbar() {
+
+
+export default function Navbar() {
     const navigate = useNavigate();
 /*    const { pathname } = useLocation();*/
     const [toggle, setToggle] = useState(false);
@@ -43,13 +40,27 @@ export function Navbar() {
 
 
     return (
-        <div className="fixed top-0 left-0 right-0 z-10 transition-transform duration-300 px-6" style={{ backgroundImage: `url(${img})` }}>
-     
-            <div className="flex bg-customBlack2 text-customWhite font-bold text-xl justify-around items-center py-14 border-b-[2px]"
-                
-            >
-                
-                <div className="xl:flex lg:flex md:flex hidden md:space-x-2 lg:space-x-4 xl:space-x-12 2xl:space-x-16">
+        <>
+            
+        <div className="flex bg-customBlack2 text-customWhite font-bold text-xl justify-around items-center  border-[2px] fixed top-0 left-0 right-0 z-10 transition-transform duration-300 " >
+                <div className="flex border px-6 -ml-10 py-10">
+                    <h1>R/S LOGO</h1>
+                </div>
+                <div className="text-white">
+                    {toggle ? (
+                        <RxCross2
+                            onClick={() => setToggle(false)}
+                            className="md:hidden cursor-pointer text-4xl"
+                        />
+                    ) : (
+                        <IoMenuOutline
+                            onClick={() => setToggle(true)}
+                            className="md:hidden cursor-pointer text-3xl"
+                        />
+                    )}
+                </div>
+                <div className="xl:flex lg:flex md:flex hidden md:space-x-2 lg:space-x-4 xl:space-x-12 2xl:space-x-16 mr-14">
+                    
                     <Link to="/" className={`group relative ${selectedNav === '/' ? 'cursor-pointer' : 'cursor-default'}`}  onClick={() => handleNavClick('/')}>
                         <h1>HOME</h1>
                         <div className={`w-full absolute ${selectedNav === '/' ? 'block' : 'hidden'} absolute h-[4px] bg-customWhite`}></div>
@@ -159,10 +170,10 @@ export function Navbar() {
                         <div className={`w-full absolute ${selectedNav === '/about' ? 'block' : 'hidden'} absolute h-[4px] bg-customBrown`}></div>
                     </Link>
                 </div>
-            </div>
+            
 
             {toggle && (
-                <div className=" bg-repeat w-full text-customBrown text-center pb-8 space-x-1 text-xl bg-customGray z-10 absolute"
+                <div className=" bg-repeat w-2/6  text-white text-center pb-8 space-x-1 text-xl bg-customBlack z-10 absolute  "
                     style={{ backgroundImage: `url(${img})` }}
                 >
                     <Link to="/" className="cursor-pointer ">
@@ -312,6 +323,7 @@ export function Navbar() {
                     </Link>
                 </div>
             )}
-        </div>
+            </div>
+            </>
     );
 }

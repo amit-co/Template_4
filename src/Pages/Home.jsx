@@ -8,10 +8,6 @@ import { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Quote from "../Components/Quote";
-import RestrauntLocation from "../Components/RestrauntLocation";
-import img5 from "/New/facebook.png";
-import img6 from "/New/instagram.png";
-import img7 from "/New/twitter.png";
 import img8 from "/New/Gallery.png";
 import img9 from "/New/Drinks.png";
 import img10 from "/New/Food.png";
@@ -26,25 +22,20 @@ import bar_img from "/New/bar.png";
 import pdf from "/New/pdf.png";
 import img12 from "/New/Group 78.png";
 import img13 from "/New/Group 79.png";
-import drinks_h from "/New/drinks_h.png";
+
 
 
 export default function Home() {
-   
-
     const initialFormData = {
         date: new Date(),
         time: "16:00",
         name: "",
         email: "",
         phone: "",
-        occassion: "",
-        
-        
+        occassion: "", 
     }
     const [formData, setFormData] = useState(initialFormData);
 
-  
     const changeHandler = (e) => {
         const { name, value } = e.target;
         setFormData((prev) => ({
@@ -63,34 +54,36 @@ export default function Home() {
    
 
     return (
-        <div className="bg-fixed bg-cover" style={{ backgroundImage: `url(${img})` }}>
-            
-                
-            <div className="relative w-full h-[80vh] sm:h-[60vh] md:h-[75vh] lg:h-[85vh] overflow  bg-cover mb-[5vh] mt-[18vh] flex items-center justify-end px-4 sm:px-8 md:px-12 lg:px-16">
-                
+        <div className="bg-fixed bg-cover pb-10 pt-2" style={{ backgroundImage: `url(${img})` }}>  
+            <div className="relative w-full h-[80vh] sm:h-[60vh] md:h-[75vh] lg:h-[85vh] overflow  bg-cover mb-[5vh] mt-24 flex items-center justify-end px-4 sm:px-8 md:px-12 lg:px-16">
+ 
                 <img src={img1} className="object-cover w-full h-full" />
                 <div className="absolute container w-6/12 top-0 left-0 ml-5 lg:ml-32  ">
                     <img src={img2} className="ml-0 lg:ml-24" />
-                    <div className="mr-2 ml-2 lg:mr-24 lg:ml-10">
-                        <p className="text-xs sm:text-sm md:text-base lg:text-lg text-white tracking-widest text-center ">We Want Our Customers To Feel As Though They Are At Home. They Can Stay As Long As They Want.
+                    <div className="mr-2 ml-2 lg:mr-24 lg:ml-10 ">
+                        <p className="text-xl sm:text-sm md:text-xl w-10/12 xl:h-44 lg:text-lg text-white tracking-widest text-center ">We Want Our Customers To Feel As Though They Are At Home. They Can Stay As Long As They Want.
                             Relaxing All Day Or Evening - Grazing On Mouth-Watering Dishes. Looked After By Our Welcoming, Attentive Staff. Customers Will Always Be
                             Encouraged To Linger. Working On A Laptop Or Reading A Paper.
                         </p>
                     </div>
-                    <div className="flex flex-col ml-3 lg:ml-40 mt-6 text-white">
+                    <div className="flex flex-col ml-3 lg:ml-40 mt-6   text-white">
                         <h1 className=" text-sm sm:text-lg md:text-xl lg:text-2xl tracking-widest font-bold ml-2 lg:ml-14">OPENING TIME</h1>
-                        
                         <h1 className="tracking-normal lg:tracking-widest text-xs lg:text-xl">Monday - Friday 10 Am - 10Pm</h1>
                         <h1 className="tracking-normal lg:tracking-widest text-xs lg:text-xl">Saturday - Sunday 12 Pm - 12Am</h1>
                         <div className="flex ml-1 lg:ml-20 mt-2">
                             <button className="tracking-widest border px-2 lg:px-4 py-2">Find A Table</button>
-                            </div>
+                        </div>
+                        <div className="flex flex-col">
+                            <h1 className="flex text-white text-2xl mt-8">Tel - +44 (0) 208759 7755</h1>
+                            <h1 className="flex text-white text-2xl mt-2">Email - franky.rodrigues@hilton.com</h1>
+                            <p className="flex text-white text-2xl mt-2">ADDRESS- Terminal Four, Hounslow, </p>
+                            <p className="flex text-white text-2xl mt-2">TW6 3AF, United Kingdom</p>
+                        </div>
 
                         </div>
                 </div>
-                </div>
-               
-           
+            </div>
+
             <div className="flex flex-col h-[60vh] bg-customBlack2 bg-opacity-75 mb-10 mx-8 ">
                 <div className="flex flex-col ml-4 lg:ml-0  lg:flex-row my-auto ">
                     <div className="container my-auto ml-2 lg:ml-24">
@@ -104,13 +97,11 @@ export default function Home() {
                         </p>
                         <button className="text-white border text-base sm:text-lg md:text-xl lg:text-2xl ml-4 lg:ml-0 px-4 mt-6 lg:mt-4 py-2 ">Read More</button>
                     </div>
-                   
                 </div>
             </div>
 
-            <div className="h-[2px] bg-customGray2 mb-10 mx-8"></div>
-
-                   <div className="relative flex flex-col h-[180vh]  mx-10 ">
+                             <div className="h-[2px] bg-customGray2 mb-10 mx-8"></div>
+                            <div className="relative flex flex-col h-full  mx-10 ">
                                          <div className="flex flex-row mt-10 lg:mt-24 relative ">
                                                 <div className="flex w-[561px] h-[363px] bg-customGray2 bg-opacity-75">
                                                     <div className="flex flex-row w-[561px] h-[363px] bg-customBlack2 bg-opacity-75 absolute ml-20 top-[-60px] left-[-10px]">
@@ -128,8 +119,8 @@ export default function Home() {
                                                <div className="flex flex-col mx-auto">
                                                     <img src={h1} className="w-[465px] h-[82px] object-contain ml-2 lg:ml-28" />
                                                      <div className="flex mt-24 ">
-                                                            <div className="flex w-[561px] h-[363px] bg-customGray2 bg-opacity-75 mt-20 ml-28 ">
-                                                                <div className="flex flex-col lg:flex-row w-[561px] h-[363px] bg-customBlack2 bg-opacity-75 absolute mr-28 -mt-16 right-[-46px]">
+                                                            <div className="flex w-[561px] h-[363px] bg-customGray2 bg-opacity-75 mt-20 ml-36 ">
+                                                                <div className="flex flex-col lg:flex-row w-[561px] h-[363px] bg-customBlack2 bg-opacity-75 absolute mr-32 -mt-16 right-[-32px]">
                                
                                                                     <div className="flex flex-col text-white  mx-6">
                                                                         <img src={bar_h} className="w-[89px] h-[67px] object-contain mt-14 ml-12" />
@@ -185,7 +176,7 @@ export default function Home() {
                                                      <div className=" md:flex md:space-x-8 ">
                                                             <div className=" flex mt-2 lg:mt-0 flex-col">
                                                                 <div className="flex justify-between">
-                                                                    <label className="block text-white tracking-widest  font-sm " htmlFor="fname">
+                                                                    <label className="block text-white tracking-widest  font-sm ">
                                                                        First Name
                                                                     </label>
 
@@ -198,12 +189,10 @@ export default function Home() {
                                                                     id="fname"
                                                                     className="appearance-none w-10/12 lg:w-full bg-customGray2 bg-opacity-25 text-white px-3 py-2 rounded-lg focus:outline-none"
                                                                 />
-                                                                
-
                                                             </div>
                                                         <div className=" flex mt-2 lg:mt-0 flex-col">
                                                             <div className="flex justify-between">
-                                                                <label className="block text-white tracking-widest font-sm " htmlFor="lname">
+                                                                <label className="block text-white tracking-widest font-sm " >
                                                                    Last Name
                                                                 </label>
 
@@ -216,13 +205,11 @@ export default function Home() {
                                                                 id="lname"
                                                                 className="appearance-none w-10/12 lg:w-full text-white px-3 py-2 bg-customGray2 bg-opacity-25 rounded-lg focus:outline-none"
                                                             />
-                                                           
-
                                                         </div>
                                                      </div>
                                                 <div className="mt-4 md:flex md:space-x-8  mx-auto">
                                                         <div className=" flex flex-col ">
-                                                            <label className="block text-white tracking-widest  font-sm " htmlFor="date">
+                                                            <label className="block text-white tracking-widest  font-sm " >
                                                                 DATE
                                                             </label>
                                                             <DatePicker
@@ -234,7 +221,7 @@ export default function Home() {
                                                             />
                                                         </div>
                                                         <div className="w-10/12 mt-2 lg:mt-0 flex flex-col">
-                                                            <label className="block text-white tracking-widest  font-sm " htmlFor="time">
+                                                            <label className="block text-white tracking-widest  font-sm " >
                                                                 TIME
                                                             </label>
                                                             <select
@@ -274,7 +261,7 @@ export default function Home() {
                                                 <div className="mt-4 md:flex md:space-x-8 mx-auto">
                                                    <div className=" flex flex-col">
                                                         <div className="flex justify-between">
-                                                            <label className="block text-white tracking-widest  font-sm " htmlFor="phone">
+                                                            <label className="block text-white tracking-widest  font-sm " >
                                                                 Contact Number
                                                             </label>
 
@@ -290,7 +277,7 @@ export default function Home() {
                                                         
                                                    </div>
                                                         <div className=" flex mt-2 lg:mt-0 flex-col">
-                                                            <label className="block text-white tracking-widest  font-sm " htmlFor="occasion">
+                                                            <label className="block text-white tracking-widest  font-sm " >
                                                                 OCCASION
                                                             </label>
                                                             <input
@@ -306,7 +293,7 @@ export default function Home() {
                                                         <button className="text-white tracking-widest border px-4 py-2 ml-8 lg:ml-40 mt-6 lg:mt-4">Find A Table</button>
                                                         <img src={img4} className="ml-8 lg:ml-32 w-[150px] lg:w-[199px] h-[52px] mt-4" />
                                             </div>  
-            </div>
+                                 </div>
 
             <div className=" flex flex-col h-[600px] lg:h-[550px]  w-full  mb-20">
                 <div className="flex mt-4  mb-16 ml-10">
@@ -330,7 +317,7 @@ export default function Home() {
             </div>
                 
 
-            <div className=" flex  h-[400px] bg-customGray2 mx-10 opacity-75 items-center mb-10">
+            <div className=" flex  h-[400px] bg-customGray2 mx-10 opacity-75 items-center ">
                 <div className="container mx-auto px-10 py-4">
                     <Quote />
                     </div>
@@ -338,35 +325,6 @@ export default function Home() {
             <Suspense fallback={<h1>Loading...</h1>}>
                
             </Suspense>
-
-            <div className=" flex  flex-col lg:flex-row h-[600px] lg:h-[400px] items-center backdrop-brightness-50 bg-white/10 ">
-                <div className="flex ml-0 lg:ml-20 ">
-                    <RestrauntLocation />
-                </div>
-                <div className="conatiner mx-auto mt-24 lg:mt-6 space-y-6">
-                    <h1 className="text-2xl md:text-4xl sm:text-3xl lg:text-5xl tracking-widest text-white ">Connect With Us</h1>
-                    <div className="flex flex-col text-white md:text-lg sm:text-base text-sm lg:text-xl tracking-widest space-y-3 lg:space-y-4">
-                        <p>ADDRESS- Terminal Four, Hounslow, </p>
-                        <p>TW6 3AF, United Kingdom</p>
-                        <p>TEL - +44 (0) 208759 7755</p>
-                        <p>EMAIL - franky.rodrigues@hilton.com</p>
-                    </div>
-                    <div className="container">
-                        <h1 className="text-white text-lg sm:text-xl lg:text-2xl font-bold tracking-widest ">Follow Us</h1>
-                        <div className="flex  space-x-4 mt-2 ">
-                            <a href="https://www.facebook.com/yourprofile">
-                                <img src={img5} />
-                            </a>
-                            <a href="https://www.instagram.com/yourprofile">
-                                <img src={img6} />
-                            </a>
-                            <a href="https://twitter.com/yourprofile">
-                                <img src={img7} />
-                            </a>
-                        </div>
-                        </div>
-                </div>
-            </div>
         </div>
     );
 }
