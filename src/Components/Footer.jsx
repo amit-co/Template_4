@@ -12,8 +12,8 @@ export function Footer() {
                 <RestrauntLocation />
             </div>
             <div className="conatiner mx-auto mt-24 lg:mt-6 space-y-6">
-                <h1 className="text-2xl md:text-4xl sm:text-3xl lg:text-5xl tracking-widest text-white ">Connect With Us</h1>
-                <div className="flex flex-col text-white md:text-lg sm:text-base text-sm lg:text-xl tracking-widest space-y-3 lg:space-y-4">
+                <h1 className="text-xl md:text-3xl sm:text-2xl lg:text-4xl tracking-widest text-white ">Connect With Us</h1>
+                <div className="flex flex-col text-white md:text-base sm:text-sm text-sm lg:text-lg tracking-widest space-y-3">
                     <p>ADDRESS- Terminal Four, Hounslow, </p>
                     <p>TW6 3AF, United Kingdom</p>
                     <p>TEL - +44 (0) 208759 7755</p>
@@ -21,7 +21,7 @@ export function Footer() {
                 </div>
                 <div className="container">
                     <h1 className="text-white text-lg sm:text-xl lg:text-2xl font-bold tracking-widest ">Follow Us</h1>
-                    <div className="flex  space-x-4 mt-2 ">
+                    <div className="flex  space-x-4 mt-2 mb-4 ">
                         <a href="https://www.facebook.com/yourprofile">
                             <img src={img5} />
                         </a>

@@ -42,8 +42,8 @@ export default function Navbar() {
     return (
         <>
             
-        <div className="flex bg-customBlack2 text-customWhite font-bold text-xl justify-around items-center  border-[2px] fixed top-0 left-0 right-0 z-10 transition-transform duration-300 " >
-                <div className="flex border px-6 -ml-10 py-10">
+        <div className="flex bg-customBlack md:bg-customBlack2 text-customWhite font-bold text-xl justify-around items-center  md:border-[2px] fixed top-0 left-0 right-0 z-10 transition-transform duration-300 " >
+                <div className="flex lg:border px-6 -ml-4  py-8">
                     <h1>R/S LOGO</h1>
                 </div>
                 <div className="text-white">
@@ -59,7 +59,8 @@ export default function Navbar() {
                         />
                     )}
                 </div>
-                <div className="xl:flex lg:flex md:flex hidden md:space-x-2 lg:space-x-4 xl:space-x-12 2xl:space-x-16 mr-14">
+                
+                <div className="xl:flex lg:flex md:flex hidden md:space-x-6 lg:space-x-z xl:space-x-12 2xl:space-x-12 mr-14">
                     
                     <Link to="/" className={`group relative ${selectedNav === '/' ? 'cursor-pointer' : 'cursor-default'}`}  onClick={() => handleNavClick('/')}>
                         <h1>HOME</h1>
@@ -173,9 +174,22 @@ export default function Navbar() {
             
 
             {toggle && (
-                <div className=" bg-repeat w-2/6  text-white text-center pb-8 space-x-1 text-xl bg-customBlack z-10 absolute  "
+                <div className=" bg-repeat w-full  text-white text-center pb-8 space-x-1 text-xl absolute top-0 bg-customBlack z-10 absolute  "
                     style={{ backgroundImage: `url(${img})` }}
-                >
+                    >
+                        <div className="text-white">
+                            {toggle ? (
+                                <RxCross2
+                                    onClick={() => setToggle(false)}
+                                    className="md:hidden absolute right-4 mt-2 cursor-pointer text-4xl"
+                                />
+                            ) : (
+                                <IoMenuOutline
+                                    onClick={() => setToggle(true)}
+                                    className="md:hidden cursor-pointer text-3xl"
+                                />
+                            )}
+                        </div>
                     <Link to="/" className="cursor-pointer ">
                         <h1
                             className="hover:text-customPink"

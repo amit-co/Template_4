@@ -92,10 +92,10 @@ export default function PrivateDinning() {
                       
 
                <div className="flex flex-col pb-10 pt-10">
-                      <h1 className="md:text-5xl text-3xl tracking-widest text-customWhite text-center font-bold xl:ml-24 lg:ml-20 mt-36">
+                      <h1 className="md:text-4xl text-2xl tracking-widest text-customWhite text-center font-bold mt-32">
                           PRIVATE DINING
                       </h1>
-                      <p className="md:w-7/12 lg:w-8/12 xl:w-8/12 lg:mr-28 xl:mx-auto text-center tracking-widest mx-auto  text-2xl font-medium text-customWhite mt-5">
+                      <p className="md:w-8/12 w-9/12  mx-auto text-center tracking-widest text-base md:text-xl text-customWhite mt-5">
                          Discover the perfect blend of comfort and sophistication in our
                          thoughtfully designed space, where every detail is crafted to enhance
                          your dining experience. From intimate dinners to lively gatherings, OXBO
@@ -104,7 +104,7 @@ export default function PrivateDinning() {
                                           
             
           
-                          <div className="container lg:mr-32 sm:ml-20 ml-10 md:ml-44 xl:ml-[440px] lg:mx-auto mt-6">
+                          <div className="container mx-16 md:mx-52 lg:mx-60 2xl:mx-80 mt-12 ">
                    
                                  <div className=" md:flex ">
                    
@@ -197,7 +197,7 @@ export default function PrivateDinning() {
                                                   </select>
                                            </div>
                                   </div>
-                                           <button onClick={formHandler} className="border border-customWhite mt-8 sm:ml-28 lg:ml-48  xl:ml-80 font-medium bg-clip-text md:px-14 px-7 py-4 md:text-xl text-white transition-all duration-300">
+                                           <button onClick={formHandler} className="border border-customWhite mt-12 mx-8 sm:mx-44 md:mx-28 lg:mx-44 2xl:mx-80 bg-clip-text px-12 py-4 text-lg md:text-xl text-white transition-all duration-300">
                                                    Find A Table
                                            </button>
                           </div>

@@ -55,18 +55,18 @@ export default function Home() {
 
     return (
         <div className="bg-fixed bg-cover pb-10 pt-2" style={{ backgroundImage: `url(${img})` }}>  
-            <div className="relative w-full h-[80vh] sm:h-[60vh] md:h-[75vh] lg:h-[85vh] overflow  bg-cover mb-[5vh] mt-24 flex items-center justify-end px-4 sm:px-8 md:px-12 lg:px-16">
+            <div className="relative w-full h-[46vh] sm:h-[60vh] md:h-[75vh] lg:h-[95vh] overflow  bg-cover mb-2 md:mb-[5vh] mt-24 flex items-center justify-end px-4 sm:px-8 md:px-12 lg:px-16">
  
                 <img src={img1} className="object-cover w-full h-full" />
                 <div className="absolute container w-6/12 top-0 left-0 ml-5 lg:ml-32  ">
                     <img src={img2} className="ml-0 lg:ml-24" />
                     <div className="mr-2 ml-2 lg:mr-24 lg:ml-10 ">
-                        <p className="text-xl sm:text-sm md:text-xl w-10/12 xl:h-44 lg:text-lg text-white tracking-widest text-center ">We Want Our Customers To Feel As Though They Are At Home. They Can Stay As Long As They Want.
+                        <p className="text-xl hidden sm:block sm:text-sm md:text-xl w-10/12 xl:h-44 lg:text-lg text-white tracking-widest text-center ">We Want Our Customers To Feel As Though They Are At Home. They Can Stay As Long As They Want.
                             Relaxing All Day Or Evening - Grazing On Mouth-Watering Dishes. Looked After By Our Welcoming, Attentive Staff. Customers Will Always Be
                             Encouraged To Linger. Working On A Laptop Or Reading A Paper.
                         </p>
                     </div>
-                    <div className="flex flex-col ml-3 lg:ml-40 mt-6   text-white">
+                    <div className="flex flex-col ml-1 lg:ml-40 mt-6   text-white">
                         <h1 className=" text-sm sm:text-lg md:text-xl lg:text-2xl tracking-widest font-bold ml-2 lg:ml-14">OPENING TIME</h1>
                         <h1 className="tracking-normal lg:tracking-widest text-xs lg:text-xl">Monday - Friday 10 Am - 10Pm</h1>
                         <h1 className="tracking-normal lg:tracking-widest text-xs lg:text-xl">Saturday - Sunday 12 Pm - 12Am</h1>
@@ -74,28 +74,28 @@ export default function Home() {
                             <button className="tracking-widest border px-2 lg:px-4 py-2">Find A Table</button>
                         </div>
                         <div className="flex flex-col">
-                            <h1 className="flex text-white text-2xl mt-8">Tel - +44 (0) 208759 7755</h1>
-                            <h1 className="flex text-white text-2xl mt-2">Email - franky.rodrigues@hilton.com</h1>
-                            <p className="flex text-white text-2xl mt-2">ADDRESS- Terminal Four, Hounslow, </p>
-                            <p className="flex text-white text-2xl mt-2">TW6 3AF, United Kingdom</p>
+                            <h1 className="flex text-white text-base lg:text-xl mt-8">Tel - +44 (0) 208759 7755</h1>
+                            <h1 className="flex text-white text-base lg:text-xl mt-2">Email - franky.rodrigues@hilton.com</h1>
+                            <p className="flex text-white text-sm lg:text-xl mt-2">ADDRESS- Terminal Four, Hounslow,  </p>
+                            <p className="flex text-white text-sm lg:text-xl mt-2">TW6 3AF, United Kingdom</p>
                         </div>
 
                         </div>
                 </div>
             </div>
 
-            <div className="flex flex-col h-[60vh] bg-customBlack2 bg-opacity-75 mb-10 mx-8 ">
+            <div className="flex flex-col h-full lg:h-[45vh] bg-customBlack2 bg-opacity-75 mb-10 mx-0 md:mx-8 ">
                 <div className="flex flex-col ml-4 lg:ml-0  lg:flex-row my-auto ">
-                    <div className="container my-auto ml-2 lg:ml-24">
-                        <h1 className="text-white md:text-4xl sm:text-3xl text-xl lg:text-6xl tracking-widest">About Us</h1>
+                    <div className="container my-auto text-center ml-0 lg:ml-24">
+                        <h1 className="text-white md:text-4xl sm:text-3xl mt-2 md:mt-0 text-xl lg:text-6xl tracking-widest">About Us</h1>
                     </div>
-                    <div className="container w-[36vh] lg:w-[300vh] mt-3 lg:mt-0 mr-2 lg:mr-20">
-                        <p className="text-xs sm:text-base lg:text-lg text-white tracking-widest ">Our Aim Is To Provide A Welcoming All-Day Experience Rooted In Care For Our Customers, Staff, Produce And Land.
+                    <div className="container w-full text-center lg:w-[300vh] mt-3 lg:mt-0 mr-2 lg:mr-20">
+                        <p className="text-xs sm:text-base lg:text-lg text-white mx-4 tracking-widest ">Our Aim Is To Provide A Welcoming All-Day Experience Rooted In Care For Our Customers, Staff, Produce And Land.
                             At Oxbo We Want Our Customers To Feel As Though They Are At Home. They Can Stay As Long As They Want. Relaxing All Day Or Evening - Grazing
                             On Mouth-Watering Dishes, Looked After By Our Welcoming, Attentive Staff. Customers Will Always Be Encouraged To Linger. Working On A Laptop
                             Or Reading A Paper . Even After They've Finished Their Latte Or Lunch.
                         </p>
-                        <button className="text-white border text-base sm:text-lg md:text-xl lg:text-2xl ml-4 lg:ml-0 px-4 mt-6 lg:mt-4 py-2 ">Read More</button>
+                        <button className="text-white border text-base sm:text-lg md:text-xl lg:text-2xl ml-2 lg:ml-0 px-4 mt-4 mb-4 lg:mb-0 lg:mt-4 py-2 ">Read More</button>
                     </div>
                 </div>
             </div>
@@ -157,7 +157,7 @@ export default function Home() {
                    </div>
 
 
-                                        <div className="relative flex flex-col h-[70vh] lg:h-[60vh] bg-customBlack2 bg-opacity-75  items-center mb-10">
+                                        <div className="relative flex flex-col h-[70vh] lg:h-[50vh] bg-customBlack2 bg-opacity-75  items-center mb-10">
                                                 <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-widest mt-10 ">Venue</h1>
                                             <p className="text-white tracking-widest md:text-lg sm:text-base text-xs lg:text-xl text-center mt-4 px-6">Welcome To OXBO, Where Culinary Excellence Meets Unparalleled Hospitality. Nesteled In The Heart Of Walles,
                                                 Our Restaurant Offers A Dynamic Dinning Experience That Celebrates The Fusion Of Modern And Traditional Flavours. At OXBO, We Pride Ourseleves On Sourcing

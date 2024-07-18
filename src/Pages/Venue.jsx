@@ -24,22 +24,26 @@ export function Venue() {
             <div className="bg-cover pb-10 lg:mt-24 lg:pb-44" style={{ backgroundImage: `url(${imgBg})` }}>
 
                 <div className="flex flex-col pb-10 pt-10  ">
-                    <h1 className="md:text-6xl text-5xl tracking-widest text-customWhite text-center font-bold  mt-36">
+                    <h1 className="md:text-6xl sm:text-3xl text-4xl tracking-widest text-customWhite text-center font-bold mt-28 md:mt-8">
                         Venue
                     </h1>
-                    <p className="w-8/12  text-center tracking-widest mx-auto  text-2xl font-medium text-customWhite mt-5 ">
+                    <p className="w-8/12  text-center tracking-widest mx-auto text-lg md:text-2xl font-medium text-customWhite mt-5 ">
                     OXBO Kitchen Serves Breakfast. OXBO Cafe Offers Tempting Snacks Any Time. And OXBO Bar Provides Casual
                     Drinking And Dining. Each Outlet Has A Distinct Menu And Responsibly Sourced Dishes.
                     </p>
                 </div>
-            <div className="flex lg:flex-row sm:flex-col lg:space-y-0 sm:space-y-10 space-x-10 mx-40">
-                <div className="flex w-80 h-72 bg-customGray2 bg-opacity-75 rounded-lg md:ml-10" >
+            <div className="flex xl:flex-row flex-col xl:space-y-0 space-y-10 mx-10 space-x-0 xl:space-x-10 xl:mx-5 lg:mx-20 2xl:mx-32">
+                <div className="flex flex-row space-x-5 lg:space-x-10">
+                <div className="flex w-full xl:w-72 h-44 xl:h-72 bg-customGray2 bg-opacity-75 rounded-lg " >
                 </div>
-                <div className="flex w-80 h-72 bg-customGray2 bg-opacity-75 rounded-lg">
+                <div className="flex w-full xl:w-72 h-44 xl:h-72 bg-customGray2 bg-opacity-75 rounded-lg">
+                    </div>
                 </div>
-                <div className="flex w-80 h-72 bg-customGray2 bg-opacity-75 rounded-lg ">
+                <div className="flex flex-row space-x-5 lg:space-x-10 ">
+                <div className="flex w-full xl:w-72 h-44 xl:h-72 bg-customGray2 bg-opacity-75 rounded-lg ">
                 </div>
-                <div className="flex w-80 h-72 bg-customGray2 bg-opacity-75  rounded-lg ">
+                <div className="flex w-full xl:w-72 h-44 xl:h-72 bg-customGray2 bg-opacity-75  rounded-lg ">
+                    </div>
                 </div>
                 
             </div>
