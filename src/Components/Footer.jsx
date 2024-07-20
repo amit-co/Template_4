@@ -8,12 +8,12 @@ export function Footer() {
     return (
         <div className="bg-fixed bg-cover " style={{ backgroundImage: `url(${img})` }}>
         <div className=" flex  flex-col lg:flex-row h-full lg:h-11/12 lg:pb-4 items-center backdrop-brightness-50 bg-white/10 ">
-            <div className="flex ml-0 lg:ml-20 ">
+            <div className="flex ml-0 lg:ml-20  ">
                 <RestrauntLocation />
             </div>
             <div className="conatiner mx-auto mt-24 lg:mt-6 space-y-6">
-                <h1 className="text-xl md:text-3xl sm:text-2xl lg:text-4xl tracking-widest text-white ">Connect With Us</h1>
-                <div className="flex flex-col text-white md:text-base sm:text-sm text-sm lg:text-lg tracking-widest space-y-3">
+                <h1 className="text-5xl md:text-3xl sm:text-2xl lg:text-4xl tracking-widest text-white ">Connect With Us</h1>
+                <div className="flex flex-col text-white md:text-base sm:text-sm text-xl lg:text-lg tracking-widest space-y-3">
                     <p>ADDRESS- Terminal Four, Hounslow, </p>
                     <p>TW6 3AF, United Kingdom</p>
                     <p>TEL - +44 (0) 208759 7755</p>

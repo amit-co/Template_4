@@ -18,14 +18,14 @@ export default function Discount() {
         <div className="md:flex ">
 
             <div className=" pt-10 w-full xl:mx-28 mx-20 pb-5 md:w-full ">
-                <h1 className="text-customWhite text-2xl tracking-widest ">From</h1>
-                <h1 className="text-customWhite mt-3 text-2xl">£10.00</h1>
+                <h1 className="text-customWhite sm:text-2xl text-4xl tracking-widest ">From</h1>
+                <h1 className="text-customWhite mt-3 sm:text-2xl text-4xl">£10.00</h1>
                 <div className="flex flex-col mt-3">
-                    <label htmlFor="input" className="text-customWhite  text-2xl">Enter amount</label>
+                    <label htmlFor="input" className="text-customWhite  sm:text-2xl text-4xl">Enter amount</label>
                     <input
                         type="text"
                         id="input"
-                        className="border h-12 rounded-lg mt-3 w-52 outline-none pl-3 placeholder:text-2xl"
+                        className="border h-12 rounded-lg mt-3 sm:w-52 outline-none pl-3 placeholder:text-2xl"
                         placeholder="£"
                         value={amount}
                         onChange={handleAmountChange}
@@ -60,7 +60,7 @@ export default function Discount() {
                             </div>
                     </div>
                     <div className="flex">
-                    <button className="bg-clip-text border-white border text-xl ml-8 tracking-widest text-white mt-6 xl:mt-7 px-4 ">
+                    <button className="bg-clip-text border-white border sm:text-xl text-2xl sm:ml-8 tracking-widest text-white mt-6 xl:mt-7 px-4 py-4  ">
                         Add to basket
                         </button>
                         </div>

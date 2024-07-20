@@ -1,4 +1,3 @@
-import { Quote } from "../Components/Quote";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useState } from "react";
@@ -6,7 +5,6 @@ import axios from "axios";
 import { config } from "../config";
 import { toast } from "react-toastify";
 import { z } from "zod";
-import img1 from "/Textures/4523.png";
 import imgBg from "/New/BG.png";
 
 
@@ -88,10 +86,10 @@ export default function PrivateDinning() {
   }
 
     return (
-        <div className="bg-fixed bg-cover  " style={{ backgroundImage: `url(${imgBg})` }}>
+        <div className="bg-fixed bg-cover sm:pb-6 pb-4" style={{ backgroundImage: `url(${imgBg})` }}>
                       
 
-               <div className="flex flex-col pb-10 pt-10">
+               <div className="flex flex-col  pt-10">
                       <h1 className="md:text-4xl text-2xl tracking-widest text-customWhite text-center font-bold mt-32">
                           PRIVATE DINING
                       </h1>
@@ -104,8 +102,8 @@ export default function PrivateDinning() {
                                           
             
           
-                          <div className="container mx-16 md:mx-52 lg:mx-60 2xl:mx-80 mt-12 ">
-                   
+                <div className="flex w-full sm:ml-[25%] mt-8 ">
+                    <form className="md:w-10/12 mx-auto sm:mx-0">
                                  <div className=" md:flex ">
                    
                                         <div className="md:w-4/12 flex flex-col">
@@ -120,7 +118,7 @@ export default function PrivateDinning() {
                                                 value={formData.fname}
                                                 type="text"
                                                 id="fname"
-                                                className="appearance-none w-8/12 h-14 text-white px-4  bg-customGray2 bg-opacity-25 rounded-lg focus:outline-none"
+                                                className="appearance-none sm:w-8/12 h-14 text-white px-4  bg-customGray2 bg-opacity-25 rounded-lg focus:outline-none"
                                               />
                                               {errors.fname && <h1 className="text-red-500 text-sm">{errors.fname}</h1>}
           
@@ -138,7 +136,7 @@ export default function PrivateDinning() {
                                                     value={formData.lname}
                                                     type="text"
                                                     id="lname"
-                                                    className="appearance-none w-8/12 h-14 text-white px-3  bg-customGray2 bg-opacity-25 rounded-lg focus:outline-none"
+                                                    className="appearance-none sm:w-8/12 h-14 text-white px-3  bg-customGray2 bg-opacity-25 rounded-lg focus:outline-none"
                                                 />
                                                 {errors.lname && <h1 className="text-red-500 text-sm">{errors.lname}</h1>}
 
@@ -156,7 +154,7 @@ export default function PrivateDinning() {
                                                     selected={formData.date}
                                                     onChange={handleDateChange}
                                                     dateFormat="dd/MM/yyyy"
-                                                    className="appearance-none w-8/12 h-16 text-white px-3  bg-customGray2 bg-opacity-25 rounded-lg focus:outline-none"
+                                                    className="appearance-none sm:w-8/12 h-16 text-white px-3  bg-customGray2 bg-opacity-25 rounded-lg focus:outline-none"
                                                   />
                                                 </div>
                                            <div className="md:w-4/12 flex flex-col">
@@ -168,7 +166,7 @@ export default function PrivateDinning() {
                                                         value={formData.time}
                                                         name="time"
                                                         onChange={changeHandler}
-                                                        className="appearance-none w-8/12 h-16 text-white px-3  bg-customGray2 bg-opacity-25 rounded-lg focus:outline-none"
+                                                        className="appearance-none sm:w-8/12 h-16 text-white px-3  bg-customGray2 bg-opacity-25 rounded-lg focus:outline-none"
                                                       >
                                                         {[
                                                           "16:00",
@@ -195,11 +193,16 @@ export default function PrivateDinning() {
                                                               </option>
                                                         ))}
                                                   </select>
-                                           </div>
-                                  </div>
-                                           <button onClick={formHandler} className="border border-customWhite mt-12 mx-8 sm:mx-44 md:mx-28 lg:mx-44 2xl:mx-80 bg-clip-text px-12 py-4 text-lg md:text-xl text-white transition-all duration-300">
+                            </div>
+                                           
+                        </div>
+
+                    <div className="flex ">
+                                           <button onClick={formHandler} className="border border-customWhite mt-12 sm:ml-52 bg-clip-text px-12 py-4 text-lg md:text-xl text-white ">
                                                    Find A Table
                                            </button>
+                        </div>
+                                        </form>
                           </div>
               </div>
           
