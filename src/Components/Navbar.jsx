@@ -117,7 +117,7 @@ export default function Navbar() {
                             HOME
                         </h1>
                     </Link>
-                    <Link to="/bookNow" className="w-fit mx-auto relative cursor-pointer">
+                    <Link to="/" className="w-fit mx-auto relative cursor-pointer">
                         <h1
                             className="hover:text-customPink"
                             onClick={() => setToggle(false)}
@@ -154,25 +154,25 @@ export default function Navbar() {
                                 style={{ backgroundImage: `url(${img})` }}
                             >
                                 <Link onClick={() => setToggle(false)}
-                                    to="/venue/restaurant"
+                                    to="/venue"
                                     className="hover:text-customPink transition-all duration-100"
                                 >
                                     RESTAURANT
                                 </Link>
                                 <Link onClick={() => setToggle(false)}
-                                    to="/venue/bar"
+                                    to="/venue"
                                     className="hover:text-customPink transition-all duration-100"
                                 >
                                     BAR
                                 </Link>
                                 <Link onClick={() => setToggle(false)}
-                                    to="/venue/cafe"
+                                    to="/venue"
                                     className="hover:text-customPink transition-all duration-100"
                                 >
                                     CAFE
                                 </Link>
                                 <Link onClick={() => setToggle(false)}
-                                    to="/venue/ird"
+                                    to="/venue"
                                     className="hover:text-customPink transition-all duration-100"
                                 >
                                     IRD
@@ -198,7 +198,7 @@ export default function Navbar() {
                             GIFT VOUCHER
                         </h1>
                     </Link>
-                    <Link to="/contact" className="relative cursor-pointer">
+                    <Link to="/" className="relative cursor-pointer">
                         <h1
                             className="hover:text-customPink"
                             onClick={() => setToggle(false)}
@@ -206,7 +206,7 @@ export default function Navbar() {
                             CONTACT
                         </h1>
                     </Link>
-                    <Link to="/gallery" onMouseEnter={() => setDisplayGallery(true)} onMouseLeave={() => setDisplayGallery(false)} className="relative cursor-pointer">
+                    <Link to="/" onMouseEnter={() => setDisplayGallery(true)} onMouseLeave={() => setDisplayGallery(false)} className="relative cursor-pointer">
                         <h1
                             className={` hover:text-customPink`}
                             onClick={() => setToggle(false)}
@@ -222,19 +222,19 @@ export default function Navbar() {
                                     style={{ backgroundImage: `url(${img})` }}
                                 >
                                     <Link onClick={() => setToggle(false)}
-                                        to="/gallery/food"
+                                        to="/"
                                         className="hover:text-customPink transition-all duration-100"
                                     >
                                         FOOD
                                     </Link>
                                     <Link onClick={() => setToggle(false)}
-                                        to="/gallery/drinks"
+                                        to="/"
                                         className="hover:text-customPink transition-all duration-100"
                                     >
                                         DRINKS
                                     </Link>
                                     <Link onClick={() => setToggle(false)}
-                                        to="/gallery/teams"
+                                        to="/"
                                         className="hover:text-customPink transition-all duration-100"
                                     >
                                         TEAM
@@ -246,7 +246,7 @@ export default function Navbar() {
 
                         )}
                     </Link>
-                    <Link to="/about" className="relative cursor-pointer">
+                    <Link to="/" className="relative cursor-pointer">
                         <h1
                             className="hover:text-customPink"
                             onClick={() => setToggle(false)}

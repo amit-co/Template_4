@@ -12,64 +12,68 @@ import ird from "/New/ird.png";
 export default function Menu() {
  
     return (
-        <div className="bg-fixed bg-cover  " style={{ backgroundImage: `url(${imgBg})` }}>
+        <div className=" bg-fixed bg-cover pb-20" style={{ backgroundImage: `url(${imgBg})` }}>
             
-                          <div className="relative flex flex-col h-full pb-10 mx-10 mt-20 sm:mx-10 ">
+                     <div className="relative flex flex-col h-auto pb-10 mx-10 mt-20  ">
                                    <img src={h1} className="object-contain mx-auto mt-10 " />
-                                   <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-10 space-y-10 sm:space-y-0 ">
-                                           <div className="flex sm:flex-col flex-row w-full  space-y-10 sm:space-y-40 mx-4 sm:mx-20 mt-10 sm:mt-24">
-                                                <div className="flex w-full sm:w-9/12 h-80 bg-customGray2 bg-opacity-75 ml-4 sm:ml-8" >
-                                                    <div className="flex flex-row w-4/12 h-80 bg-customBlack2 bg-opacity-75 absolute ml-24 top-8 sm:top-32 left-4 sm:left-16 p-4 sm:p-0">
-                                                        <img src={cafe_img} className=" my-10  sm:mx-10 mx-4"/>
-                                                        <div className="flex flex-col text-white -ml-4 sm:-ml-8">
-                                                            <img src={Cafe} className="w-20 sm:w-20 h-16 sm:h-16 object-contain ml-4 sm:ml-10 " />
-                                                            <p className="w-full  h-12 text-center text-xs mb-10">Tempting Snacks For Any Time Of Day - Or Take Advantage Of The Grab And Go Service If You Need Something To Eat Or Drink On The Move.
+                                   <div className="flex flex-col  w-full h-auto space-y-28 mx-auto mt-20 ">
+                                           <div className="flex lg:flex-row flex-col w-full space-y-20 lg:space-y-0 lg:space-x-36 lg:mx-10 ">
+                                                <div className="flex lg:w-[520px] lg:h-[363px] w-[302px] h-[194px] bg-customGray2 bg-opacity-75 " >
+                                                    <div className="flex flex-row lg:w-[520px] w-[302px] lg:h-[363px] h-[194px] bg-customBlack2 bg-opacity-75 absolute ml-6 lg:ml-10 top-32">
+                                                        <img src={cafe_img} className="lg:w-[278px] lg:h-[270px] w-[149px] h-[146px] mx-auto my-auto"/>
+                                                        <div className="flex flex-col text-white lg:mt-10">
+                                                            <img src={Cafe} className=" object-contain lg:w-[83px] lg:h-[45px] w-[52px] h-[36px] mx-auto " />
+                                                            <p className="lg:w-[214px] lg:h-[144px] w-[121px] h-[78px] text-center text-[8.5px] lg:text-sm lg:mt-4 lg:px-2">Tempting Snacks For Any Time Of Day - Or Take Advantage Of The Grab And Go Service If You Need Something To Eat Or Drink On The Move.
                                                                 Choose From Breakfast Favorites. Healthy Offerings Or Traditional Favorites Cooked With Resposibly Sourced Ingredients.</p>
-                                                            <img src={pdf} className="object-contain w-8 sm:w-12 h-8 sm:h-12  mt-24 ml-14" />
+                                                            <img src={pdf} className="object-contain lg:w-[45px] w-[24px] h-[24px] lg:h-[45px] mt-10 mx-auto" />
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className="flex w-full sm:w-9/12 h-80 bg-customGray2 bg-opacity-75 ml-4 sm:ml-8">
-                                                    <div className="flex flex-row w-1/3 h-80 bg-customBlack2 bg-opacity-75 absolute ml-14 -mt-16 inset-y-2/12">
-                                                                <img src={ird} className="my-10 mx-4 sm:mx-10 " />
-                                                            <div className="flex flex-col text-white -ml-4 sm:-ml-8 ">
-                                                                <img src={h2} className="w-36 h-12 object-contain mt-4 mb-6  " />
-                                                                 <p className="w-full h-16 text-center mx-auto text-xs  ">Tempting Snacks For Any Time Of Day - Or Take Advantage Of The Grab And Go Service If You Need Something To Eat Or Drink On The Move.
+                                                    <div className="flex lg:w-[520px] w-[302px] h-[194px] lg:h-[363px] bg-customGray2 bg-opacity-75 " >
+                                                        <div className="flex flex-row lg:w-[520px] w-[302px] h-[194px] lg:h-[363px] bg-customBlack2 bg-opacity-75 absolute -ml-6 -mt-6 lg:-ml-10 lg:-mt-10">
+                                                            <div className="flex flex-col text-white lg:mt-10 ">
+                                                                <img src={bar_h} className="object-contain lg:w-[83px] w-[52px] h-[36px] lg:h-[45px] mx-auto " />
+                                                                <p className=" text-center lg:w-[214px] w-[121px] h-[78px] lg:h-[126px] text-[8.5px] lg:text-sm lg:mt-4 lg:px-2">Tempting Snacks For Any Time Of Day - Or Take Advantage Of The Grab And Go Service If You Need Something To Eat Or Drink On The Move.
                                                                     Choose From Breakfast Favorites. Healthy Offerings Or Traditional Favorites Cooked With Resposibly Sourced Ingredients.</p>
-                                                                   <img src={pdf} className="object-contain w-12 h-12 mt-32 ml-14" />
-                                    
+                                                                <img src={pdf} className="object-contain  mx-auto lg:w-[45px] w-[24px] h-[24px] lg:h-[45px] mt-10 lg:mt-16" />
                                                             </div>
+                                                            <img src={bar_img} className="lg:w-[278px] w-[149px] h-[146px] lg:h-[270px] mx-auto my-auto" />
+                                                        </div>
                                                     </div>
-                                                </div>
+                                               
                                            </div>
                     
-                                            <div className="flex sm:flex-col flex-row w-full space-y-10 sm:space-y-40 mx-4 sm:mx-20 mt-20  sm:mt-24">
-                                                <div className="flex w-full sm:w-9/12 h-80 bg-customGray2 bg-opacity-75 ml-4 sm:ml-8 mt-24" >
-                                                  <div className="flex flex-row sm:w-4/12 w-full h-80 bg-customBlack2 bg-opacity-75 absolute mr-36 right-10 -mt-16 ">
-                                                    <div className="flex flex-col text-white  mx-6">
-                                                        <img src={bar_h} className="w-1/3 object-contain mt-6  ml-12" />
-                                                        <p className="w-[120px] h-[50px] text-center mr-3 text-xs">Tempting Snacks For Any Time Of Day - Or Take Advantage Of The Grab And Go Service If You Need Something To Eat Or Drink On The Move.
-                                                            Choose From Breakfast Favorites. Healthy Offerings Or Traditional Favorites Cooked With Resposibly Sourced Ingredients.</p>
-                                                        <img src={pdf} className="object-contain w-[45px] h-[45px] mt-44 mx-auto" />
+                                                <div className="flex lg:flex-row flex-col w-full lg:space-x-36 space-y-20 lg:space-y-0 lg:mx-10 ">
+                                                    <div className="flex lg:w-[520px] lg:h-[363px] w-[302px] h-[194px] bg-customGray2 bg-opacity-75">
+                                                         <div className="flex flex-row lg:w-[520px] lg:h-[363px] w-[302px] h-[194px] bg-customBlack2 bg-opacity-75 absolute ml-6 -mt-6 lg:ml-10 lg:bottom-20 inset-y-2/12">
+                                                            <img src={ird} className=" lg:w-[278px] lg:h-[270px] w-[149px] h-[146px] mx-auto my-auto" />
+                                                            <div className="flex flex-col text-white lg:mt-10">
+                                                                <img src={h2} className="object-contain lg:w-[190px] lg:h-[45px] w-[137px] h-[24px] mx-auto" />
+                                                                <p className="lg:w-[214px] lg:h-[144px] w-[121px] h-[78px] text-center text-[8.5px] lg:text-sm lg:mt-4 lg:px-2">Tempting Snacks For Any Time Of Day - Or Take Advantage Of The Grab And Go Service If You Need Something To Eat Or Drink On The Move.
+                                                                    Choose From Breakfast Favorites. Healthy Offerings Or Traditional Favorites Cooked With Resposibly Sourced Ingredients.</p>
+                                                                <img src={pdf} className="object-contain lg:w-[45px] w-[24px] h-[24px] lg:h-[45px] mt-10 mx-auto" />
+
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                        <img src={bar_img} className="my-10 -mx-4 sm:-mx-5" />
-                                                  </div>
-                                                </div>
-                                                <div className="flex w-9/12 h-80 bg-customGray2 bg-opacity-75 ml-8">
-                                                    <div className="flex flex-row w-2/6 h-80 bg-customBlack2 bg-opacity-75 absolute mr-36 right-10 -mt-16 ">
-                                                    <div className="flex flex-col text-white mx-4 sm:mx-6">
-                                                        <img src={kitchen_h} className="w-4/5 h-10 object-contain mt-5  ml-2" />
-                                                        <p className="w-[120px] h-[15px] text-center text-xs">Tempting Snacks For Any Time Of Day - Or Take Advantage Of The Grab And Go Service If You Need Something To Eat Or Drink On The Move.
-                                                            Choose From Breakfast Favorites. Healthy Offerings Or Traditional Favorites Cooked With Resposibly Sourced Ingredients.</p>
-                                                          <img src={pdf} className="object-contain w-8 sm:w-[45px] h-8 sm:h-[45px] mt-56 mx-auto" />
-                                                    </div>
-                                                         <img src={bar_img} className="my-10  mr-8" />
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                    
+                                                      <div className="flex lg:w-[520px] w-[302px] h-[194px] lg:h-[363px] bg-customGray2 bg-opacity-75 ">
+                                                         <div className="flex flex-row lg:w-[520px] w-[302px] h-[194px] lg:h-[363px] bg-customBlack2 bg-opacity-75 absolute -ml-6 -mt-6 lg:-ml-10 :bottom-20">
+                                                            <div className="flex flex-col text-white md:mt-10">
+                                                                <img src={kitchen_h} className=" object-contain lg:w-[230px] w-[137px] h-[24px]  lg:h-[52px] mx-auto" />
+                                                                <p className="text-center lg:w-[214px] w-[121px] h-[78px] lg:h-[126px] text-[8.5px] lg:text-sm lg:mt-2 lg:px-2">Tempting Snacks For Any Time Of Day - Or Take Advantage Of The Grab And Go Service If You Need Something To Eat Or Drink On The Move.
+                                                                    Choose From Breakfast Favorites. Healthy Offerings Or Traditional Favorites Cooked With Resposibly Sourced Ingredients.
+                                                                </p>
+                                                                  <img src={pdf} className="object-contain mx-auto lg:w-[45px] w-[24px] h-[24px] lg:h-[45px] mt-10 lg:mt-14" />
+                                                            </div>
+                                                               <img src={bar_img} className="lg:w-[258px] w-[149px] h-[146px] lg:h-[250px] mx-auto my-auto" />
+                                                         </div>
+                                                      </div>
+                                           </div>
                         
                                    </div>
                      </div>
+                                 <button className="sm:hidden border text-white px-8 text-xl py-2 ml-28">Find A Table</button>
         </div>
     );
 }

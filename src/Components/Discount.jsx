@@ -33,24 +33,24 @@ export default function Discount() {
                 </div>
 
                 <div className="flex flex-col xl:flex-row text-center mx-auto">
-                    <div className="flex  mt-6 items-center">
+                    <div className="flex mt-6 items-center">
                        
                         <input
                             type="number"
-                            className={`outline-none border rounded-l-lg bg-gray-300  ${quantity < 10 ? "pl-14 md:max-lg:pl-5 " : "sm:pl-7 md:max-lg:pl-5 "
+                            className={`outline-none border rounded-l-xl bg-gray-300  ${quantity < 10 ? "pl-14 md:max-lg:pl-5 " : "sm:pl-7 md:max-lg:pl-5 "
                                 }  text-xl border-black py-5 w-32`}
                             value={quantity}
                             onChange={handleQuantityChange}
                         />
-                        <div className="flex flex-col bg-gray-300 py-1">
+                        <div className="flex flex-col bg-gray-300  py-1">
                         <button
-                                className="text-3xl "
+                                className="text-4xl justify-center"
                             onClick={() => setQuantity((prev) => prev + 1)}
                             >
                                 <FaSquarePlus  />
                         </button>
                         <button
-                                className="text-3xl "
+                                className="text-4xl  "
                             onClick={() => {
                                 setQuantity((prev) => (prev > 1 ? prev - 1 : 1));
                             }}
@@ -59,11 +59,11 @@ export default function Discount() {
                         </button>
                             </div>
                     </div>
-                    <div className="flex">
-                    <button className="bg-clip-text border-white border sm:text-xl text-2xl sm:ml-8 tracking-widest text-white mt-6 xl:mt-7 px-4 py-4  ">
+                    
+                    <button className="bg-clip-text border-white border sm:text-xl text-2xl sm:ml-8 tracking-widest text-white mt-6 xl:mt-7 px-6    ">
                         Add to basket
                         </button>
-                        </div>
+                        
                 </div>
                
             </div>

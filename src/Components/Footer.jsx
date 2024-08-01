@@ -11,17 +11,17 @@ export function Footer() {
             <div className="flex ml-0 lg:ml-20  ">
                 <RestrauntLocation />
             </div>
-            <div className="conatiner mx-auto mt-24 lg:mt-6 space-y-6">
-                <h1 className="text-5xl md:text-3xl sm:text-2xl lg:text-4xl tracking-widest text-white ">Connect With Us</h1>
+            <div className="conatiner mx-auto ml-4  mt-36 lg:mt-6 space-y-6">
+                <h1 className="text-4xl md:text-3xl sm:text-2xl lg:text-4xl tracking-widest text-white">Connect With Us</h1>
                 <div className="flex flex-col text-white md:text-base sm:text-sm text-xl lg:text-lg tracking-widest space-y-3">
                     <p>ADDRESS- Terminal Four, Hounslow, </p>
                     <p>TW6 3AF, United Kingdom</p>
                     <p>TEL - +44 (0) 208759 7755</p>
                     <p>EMAIL - franky.rodrigues@hilton.com</p>
                 </div>
-                <div className="container">
-                    <h1 className="text-white text-lg sm:text-xl lg:text-2xl font-bold tracking-widest ">Follow Us</h1>
-                    <div className="flex  space-x-4 mt-2 mb-4 ">
+                <div className="flex flex-col ">
+                    <h1 className="text-white text-lg sm:text-xl lg:text-2xl font-bold tracking-widest mx-auto md:mx-0">Follow Us</h1>
+                    <div className="flex  space-x-4 mt-2 mb-4 mx-auto md:mx-0">
                         <a href="https://www.facebook.com/yourprofile">
                             <img src={img5} />
                         </a>
